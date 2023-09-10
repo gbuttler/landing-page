@@ -93,7 +93,9 @@ button {
     font-size: 60px;
 }
 
-.buttons-no-text {
+
+
+/* .buttons-no-text {
     display: flex;
     flex-wrap: wrap;
     flex-shrink: 1;
@@ -126,4 +128,4 @@ li {
 
 
 
-
+ */

@@ -69,7 +69,61 @@ h1 {
 }
 
 .button-info {
-    font-size: 15px;
+    font-size: 17px;
 }
+
+button {
+    background-color: white ;
+    color: #134675;
+    border: #134678;
+    padding: 20px;
+    text-align:center;
+    text-decoration: none;
+    line-height: 0em;
+    display: inline-block;
+    font-size: 16px;
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+}
+
+.recent-projects {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.buttons-no-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    min-width: 15px;
+    justify-content: center;
+}
+
+
+.pic-link-1, .pic-link-2, .pic-link-3, .pic-link-4 {
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+    max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+
+
+li {
+    list-style: none;
+}
+
+.image-description {
+    display: inline-block;
+    justify-content: center;
+}
+
+
 
 

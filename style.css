@@ -104,6 +104,9 @@ button {
 .pic-link-description {
     display: flex;
     justify-content: center;
+    overflow-wrap: break-word;
+    inline-size: 200px;
+    text-align: center;
 }
 
 .quote {
@@ -116,7 +119,15 @@ button {
 .sign-up {
     background-color: #134675;
     color: white;
+    padding: 16px;
+    text-align: center;
 
+}
+
+.footer {
+    color: gray;
+    text-align: center;
+    font-size: 10px;
 }
 
 /* .item-1, .item-2, .item-3, .item-4 {

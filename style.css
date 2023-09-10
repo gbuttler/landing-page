@@ -1,0 +1,75 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+.header {
+    background-color: #134675;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo {
+    width: auto;
+    max-height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo {
+    font-weight: bold;
+}
+
+.top-link {
+    padding-left: 15px;
+    padding-right: 15px;   
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #134675;
+    color: white;
+    padding: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.sewing-machine {
+    margin: 15px;
+    width:inherit;
+    height:inherit;
+    object-fit: contain;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.welcome-info {
+    font-size: 20px;
+}
+
+.button-info {
+    font-size: 15px;
+}
+
+
